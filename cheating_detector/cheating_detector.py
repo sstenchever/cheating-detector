@@ -129,7 +129,7 @@ def main():
     check_compare_student_responses = compare_student_responses(student_responses)
     # Returns a list of student responses that matched an online search. Returns -1 if there is an error checking results or if no responses match an online search
     check_compare_to_online_search = compare_to_online_search(student_responses)
-    # Write the results to a file named
+    # Write the results to a file name
     write_results_to_file(check_compare_student_responses, check_compare_to_online_search)
 
 if __name__ == '__main__':
